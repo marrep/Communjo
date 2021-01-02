@@ -1,0 +1,17 @@
+GET https://us-central1-meinprojekt-ea1b7.cloudfunctions.net/user HTTP/1.1
+
+###
+
+POST https://us-central1-meinprojekt-ea1b7.cloudfunctions.net/user HTTP/1.1
+content-type: application/json
+
+{
+    "userName": "john miller",
+    "age": 22,
+    "country": "USA"
+}
+
+###
+
+DELETE https://us-central1-meinprojekt-ea1b7.cloudfunctions.net/user/3jnMLILFR4xyfC4IgrcX HTTP/1.1
+content-type: application/json
